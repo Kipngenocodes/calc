@@ -3,8 +3,11 @@ from tkinter import *
 root = Tk()
 root.title("Simple Calulator")
 
-e = Entry(root, width=35, borderwidth=5)
+e = Entry(root, width=35, borderwidth=5, bg="red", fg="white")
 e.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
+
+def change_color():
+    return
 
 
 def button_click(number):
